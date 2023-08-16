@@ -1,7 +1,7 @@
 # Flask Toturial
 
 ```
--------------------auto loader----------------debugger--------------------------------------
+-------auto loader----------------debugger---
 
 flask --app main.py --debug run
 
@@ -17,7 +17,7 @@ flask --app main.py --debug run
 
 
 
---------------------Flask Define simple view-------------------------------------------
+--------------Flask Define simple view-------------------------
 from flask import Flask
 
 app = Flask(__name__)
@@ -34,7 +34,7 @@ def index():
 def about():
     return 'This is about page'
 
-------------------------------------------------------------------------------
+--------------------------------------------------------
 
 @app.route('/')
 def index():
