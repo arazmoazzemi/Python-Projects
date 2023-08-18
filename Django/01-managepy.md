@@ -10,6 +10,7 @@ sourec env/bin/activate
 
 # deactivate
 
+pip install django
 
 
 
