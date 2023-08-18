@@ -36,6 +36,7 @@ python ./managepy createsuperuser
 # This method is not recommended fot production projects,
 # For production build an app for each project
 
+dource /env/bin/activate
 python ./managepy startapp blog
 
 
