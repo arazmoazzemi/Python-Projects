@@ -74,7 +74,7 @@ INSTALLED_APPS = [
 
 ```
 
-- *Create a view and add on url*
+- *Create a view and add on urls section (/config/urls.py)*
 
 
 
