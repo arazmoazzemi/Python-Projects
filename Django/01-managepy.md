@@ -74,6 +74,23 @@ INSTALLED_APPS = [
 
 ```
 
+- *Chane admin URL patterns:
+Goto /config/urls.py*
+
+```
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+# Chanege to:
+
+urlpatterns = [
+    path('dashboard/', admin.site.urls),
+]
+
+```
+
+
 - *Create a view and add on urls section (/config/urls.py)*
 
 
