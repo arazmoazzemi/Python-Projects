@@ -21,13 +21,13 @@ django-admin startproject config
 mv config myproject
 
 cd myproject
-./manage.py
+python ./manage.py
 
-python3 manage.py runserver
+python ./manage.py runserver
 
 # 127.0.0.1:8000
 
-
+python3 manage.py migrate
 
 
 
