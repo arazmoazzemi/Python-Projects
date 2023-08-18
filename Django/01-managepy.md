@@ -19,6 +19,8 @@ pip install django
 
 django-admin
 
+
+# 01:
 django-admin startproject config
 
 # Change config folder name
@@ -26,6 +28,8 @@ mv config myproject
 
 cd myproject
 python ./manage.py
+
+#02 :
 python ./manage.py migrate
 
 python ./manage.py runserver
