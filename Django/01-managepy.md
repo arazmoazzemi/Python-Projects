@@ -19,7 +19,6 @@ pip install django
 
 django-admin
 
-
 # 01:
 django-admin startproject config
 
