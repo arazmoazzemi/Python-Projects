@@ -17,6 +17,8 @@ django-admin
 
 django-admin startproject config
 
+# Change config folder name
+mv config myproject
 
 
 
