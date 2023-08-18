@@ -76,7 +76,7 @@ INSTALLED_APPS = [
 
 - *Example, Change admin URL patterns:*
   
-*Goto /config/urls.py*
+Goto /config/urls.py
 
 *http://127.0.0.1:8000/admin/*
 to
