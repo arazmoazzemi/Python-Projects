@@ -54,7 +54,7 @@ python ./managepy startapp blog
 
 ```
 
-*Goto /config/settings.py file and add (Class), created app name(blog) on INSTALLED-APPS setcion:*
+- *Goto /config/settings.py file and add (Class), created app name(blog) on INSTALLED-APPS setcion:*
 *class BlogConfig(AppConfig):*
 
 *default_auto_field = 'django.db.models.BigAutoField'*    
