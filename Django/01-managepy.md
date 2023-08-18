@@ -27,7 +27,7 @@ django-admin startproject config
 mv config myproject
 
 #02 :
-cd myproject\config
+cd myproject
 python ./manage.py
 python ./manage.py migrate
 
