@@ -32,8 +32,9 @@ python ./manage.py migrate
 python ./managepy createsuperuser
 
 
+# Create an app
 
-
+python ./managepy startapp blog
 
 
 
