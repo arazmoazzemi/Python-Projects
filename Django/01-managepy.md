@@ -54,9 +54,22 @@ python ./managepy startapp blog
 
 ```
 
-*Goto settings.py file and add, created app name(blog) on INSTALLED-APPS setcion:*
+*Goto /config/settings.py file and add, created app name(blog) on INSTALLED-APPS setcion:*
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+     'blog'
+]
 
 
+
+```
 
 
 
