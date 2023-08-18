@@ -27,11 +27,11 @@ django-admin startproject config
 # rename config myproject
 mv config myproject
 
+#02 :
 cd myproject\config
 python ./manage.py
-
-#02 :
 python ./manage.py migrate
+
 
 # 03:
 python ./manage.py runserver
