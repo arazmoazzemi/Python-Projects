@@ -24,9 +24,10 @@ django-admin
 django-admin startproject config
 
 # Change config folder name
+# rename config myproject
 mv config myproject
 
-cd myproject
+cd myproject\config
 python ./manage.py
 
 #02 :
