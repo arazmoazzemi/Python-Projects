@@ -33,6 +33,8 @@ python ./managepy createsuperuser
 
 
 # Create an app
+# This method is not recommended fot production projects,
+# For production build an app for each project
 
 python ./managepy startapp blog
 
