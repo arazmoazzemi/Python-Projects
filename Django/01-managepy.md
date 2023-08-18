@@ -72,8 +72,10 @@ INSTALLED_APPS = [
 ]
 
 
-
 ```
+
+- *Create a view and add on url*
+
 
 
 
