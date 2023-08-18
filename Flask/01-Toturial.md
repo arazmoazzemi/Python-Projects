@@ -1,7 +1,10 @@
 # Flask Toturial
 
+
+*Enable auto loader, debugger:*
+
 ```
--------auto loader----------------debugger---
+
 
 flask --app main.py --debug run
 
