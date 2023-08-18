@@ -32,6 +32,7 @@ python ./manage.py
 #02 :
 python ./manage.py migrate
 
+# 03:
 python ./manage.py runserver
 
 # 127.0.0.1:8000
