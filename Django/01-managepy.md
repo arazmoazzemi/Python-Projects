@@ -8,9 +8,15 @@ cd django
 virtualenv -p python3 env
 sourec env/bin/activate
 
-# deactivate
+# Diactive env
+deactivate
 
 pip install django
+
+django-admin
+
+django-admin startproject config
+
 
 
 
