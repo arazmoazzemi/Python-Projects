@@ -74,8 +74,13 @@ INSTALLED_APPS = [
 
 ```
 
-- *Chane admin URL patterns:
-Goto /config/urls.py*
+- *Example, Change admin URL patterns:*
+  
+*Goto /config/urls.py*
+
+*http://127.0.0.1:8000/admin/*
+to
+*http://127.0.0.1:8000/dashboard/*
 
 ```
 urlpatterns = [
