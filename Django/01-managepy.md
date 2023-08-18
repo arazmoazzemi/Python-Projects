@@ -52,9 +52,20 @@ source /env/bin/activate
 python ./managepy startapp blog
 
 
-
-
-
-
-
 ```
+
+*Goto settings.py file and add, created app name(blog) on INSTALLED-APPS setcion:*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
