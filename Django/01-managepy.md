@@ -11,6 +11,10 @@ sourec env/bin/activate
 # Diactive env
 deactivate
 
+# windows # python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\DevOps\PycharmProjects\myproject>
+
 pip install django
 
 django-admin
@@ -38,6 +42,9 @@ python ./managepy createsuperuser
 
 dource /env/bin/activate
 python ./managepy startapp blog
+
+
+
 
 
 
