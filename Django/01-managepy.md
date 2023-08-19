@@ -214,7 +214,41 @@ urlpatterns =[
     path('api', api, name="api"),
 ]
 
+
+### multiple artcles example :
+
+from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
+
+
+# Create your views here.
+def home(request):
+    return HttpResponse("Hello World!")
+
+def api(request):
+    data = {
+        "1": {
+            "title": "Article one",
+            "id": 20,
+            "slug": "First Article"
+        },
+        "2": {
+            "title": "Article two",
+            "id": 21,
+            "slug": "Second Article"
+        },
+        "3": {
+            "title": "Article three",
+            "id": 22,
+            "slug": "Third Article"
+        },
+
+    }
+    return JsonResponse(data)
+
+
 ```
+
 
 
 
