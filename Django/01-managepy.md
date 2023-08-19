@@ -172,6 +172,7 @@ urlpatterns = [
 
 
 # Example or change blog url address:
+# view === >  http://127.0.0.1:8000/blog
 
 from django.contrib import admin
 from django.urls import path, include
@@ -183,7 +184,7 @@ urlpatterns = [
 ]
 
 
-# view === >  http://127.0.0.1:8000/blog
+
 
 ```
 
