@@ -129,8 +129,19 @@ urlpatterns = [
 
 - *Seperate urls with json*
 
-```
+*Goto blog foloder and create a (urls.py) file:*
 
+```
+# \blog\urls.py
+
+from django.urls import path
+from .views import home
+
+urlpatterns =[
+
+    path('', home)
+
+]
 
 
 ```
