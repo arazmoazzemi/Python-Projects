@@ -146,7 +146,7 @@ urlpatterns =[
 
 ```
 
-*Prevent from hardcoding define #app_name# and name on urls.py*
+*Prevent from hardcoding define app_name and name on blog urls.py*
 
 ```
 from django.urls import path
@@ -158,6 +158,22 @@ urlpatterns =[
 ]
 
 ```
+*Goto main urls.py and add incluede path*
+
+```
+from django.contrib import admin
+from django.urls import path, include
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls'))
+]
+
+
+```
+
+
 
 
 
