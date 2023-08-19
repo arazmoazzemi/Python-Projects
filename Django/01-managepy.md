@@ -146,6 +146,18 @@ urlpatterns =[
 
 ```
 
+*Prevent from hardcoding define app_name and name on urls.py*
+
+```
+from django.urls import path
+from .views import home
+
+app_name = "blog"
+urlpatterns =[
+    path('', home, name="home")
+]
+
+```
 
 
 
