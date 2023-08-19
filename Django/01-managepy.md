@@ -146,7 +146,7 @@ urlpatterns =[
 
 ```
 
-*Prevent from hardcoding define app_name and name on urls.py*
+*Prevent from hardcoding define #app_name# and name on urls.py*
 
 ```
 from django.urls import path
