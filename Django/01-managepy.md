@@ -184,8 +184,6 @@ urlpatterns = [
 ]
 
 
-
-
 ```
 
 - *return api to jason:*
@@ -216,8 +214,8 @@ urlpatterns =[
     path('api', api, name="api"),
 ]
 
-
 ```
+
 
 
 
