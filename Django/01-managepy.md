@@ -191,7 +191,7 @@ urlpatterns = [
 - *return api to jason:*
 
 ```
-# views.py
+### views.py ###
 
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
@@ -204,8 +204,17 @@ def home(request):
 def api(request):
     return JsonResponse({"title": "Hello World!"})
 
-# urls.py
 
+### urls.py###
+
+from django.urls import path
+from .views import home, api
+
+app_name = "blog"
+urlpatterns =[
+    path('', home, name="home"),
+    path('api', api, name="api"),
+]
 
 
 ```
