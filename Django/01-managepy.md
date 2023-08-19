@@ -96,7 +96,20 @@ urlpatterns = [
 ```
 
 
-- *Create a view and add on urls section (/config/urls.py)*
+- *Create first view and add on urls section (/config/urls.py)*
+
+```
+# views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def home(request):
+    return HttpResponse("Hello World!")
+
+
+```
 
 
 
