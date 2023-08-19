@@ -215,7 +215,7 @@ urlpatterns =[
 ]
 
 
-### multiple artcles example :
+### multiple artcles example ### views.py:
 
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
