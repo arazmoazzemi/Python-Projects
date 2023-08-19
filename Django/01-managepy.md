@@ -202,7 +202,11 @@ def home(request):
     return HttpResponse("Hello World!")
 
 def api(request):
-    return JsonResponse({"title": "سلام دنیا"})
+    return JsonResponse({"title": "Hello World!"})
+
+# urls.py
+
+
 
 ```
 
