@@ -96,7 +96,7 @@ urlpatterns = [
 ```
 
 
-- *Create first view and add on urls section (/config/urls.py)*
+- *Create first view and add on urls section (/config/urls.py) > views.py*
 
 ```
 # views.py
@@ -111,9 +111,21 @@ def home(request):
 
 ```
 
+- *Create first view and add on urls section (/config/urls.py) > urls.py*
 
 
+```
 
+from django.contrib import admin
+from django.urls import path
+from blog.views import home
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', home)
+]
+
+```
 
 
 
