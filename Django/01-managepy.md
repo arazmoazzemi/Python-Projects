@@ -127,6 +127,14 @@ urlpatterns = [
 
 ```
 
+- *Seperate urls with json*
+
+```
+
+
+
+```
+
 
 
 
