@@ -253,8 +253,25 @@ def api(request):
 
 ```
 # create template folder at subdet of blog folder === > mkdri /blog/templates
+# Goto template folder and create home.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<p>This is home page</p>
+</body>
+</html>
 
+# Goto blog>views.py and call html file with render
 
+from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
+
+def home(request):
+    return render(request,"home.html")
 
 
 ```
