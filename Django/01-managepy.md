@@ -252,6 +252,8 @@ def api(request):
 - *Render*
 
 ```
+# create template folder at subdet of blog folder === > mkdri /blog/templates
+
 
 
 
