@@ -276,8 +276,41 @@ def home(request):
 
 ```
 
+Example: 
+- *use context:*
+
+```
+### views.py ###
+from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
 
 
+def home(request):
+    context = {
+        "username": "Araz",
+        "age": 22,
+        "job": "IT Manager"
+    }
+    return render(request,"home.html", context)
+
+
+### home.html ###
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<p>username: {{ username}}</p>
+<p>age: {{ age}}</p>
+<p>job: {{ job}}</p>
+</body>
+</html>
+
+
+```
 
 
 
