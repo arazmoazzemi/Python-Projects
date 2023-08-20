@@ -252,8 +252,8 @@ def api(request):
 - *Render Template*
 
 ```
-# create template folder at subdet of blog folder === > mkdri /blog/templates
-# Goto template folder and create home.html
+### create template folder at subdet of blog folder === > mkdri /blog/templates ###
+### Goto template folder and create home.html ###
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -265,7 +265,7 @@ def api(request):
 </body>
 </html>
 
-# Goto blog>views.py and call html file with render
+### Goto blog>views.py and call html file with render ###
 
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
