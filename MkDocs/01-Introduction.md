@@ -44,7 +44,8 @@ nav:
 ```bash
 pip install hello-pkg
 ```
-* Run server:
+
+* Run the server:
 ```
 mkdocs serve
 > Open your program on <127.0.0.1:8000> address <
