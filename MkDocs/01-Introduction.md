@@ -18,10 +18,9 @@ mkdocs --help
 * After install, Configure **yml** file:
 
 ```
-
 mkdocs new hello-pkg
-
 cd hello-pkg
+
 # Open mkdocs.yml and set below config:
 
 site_name: MkLorum
