@@ -8,12 +8,10 @@ mkdir django
 cd django
 virtualenv -p python3 env
 sourec env/bin/activate
-```
 
-<test>
 # Diactive env
 deactivate
-</test>
+
 # windows # python.exe -m pip install --upgrade pip
 
 (venv) C:\Users\DevOps\PycharmProjects\myproject>
