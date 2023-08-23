@@ -15,12 +15,15 @@ pip install mkdocs
 mkdocs --help
 ```
 
-* After install, Configure **yml** file:
-
+* Cretae a new project:
 ```
 mkdocs new hello-pkg
 cd hello-pkg
+```
 
+* After install, Configure **yml** file:
+
+```
 # Open mkdocs.yml and set below config:
 
 site_name: MkLorum
@@ -28,9 +31,6 @@ site_url: https://example.com/
 nav:
   - Home: index.md
   - About: about.md
-
-
-
 ```
 
 
