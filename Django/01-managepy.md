@@ -1,5 +1,7 @@
 # Managepy cheats
 
+- ***Create Virtual enviroment***
+
 ```
 sudo apt install python3-pip virtualenv -y
 mkdir django
