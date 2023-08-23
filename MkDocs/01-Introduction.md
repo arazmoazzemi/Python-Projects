@@ -18,9 +18,9 @@ After install:
 
 ```python
 mkdocs --help
-|
+
 mkdocs new hello-pkg
-|
+
 
 
 
