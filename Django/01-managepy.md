@@ -1,6 +1,6 @@
 # Managepy cheats
 
-- ***Create virtual enviroment***
+* __Create virtual enviroment__
 
 ```
 $ sudo apt install python3-pip virtualenv -y
