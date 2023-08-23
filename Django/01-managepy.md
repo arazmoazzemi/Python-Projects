@@ -8,7 +8,7 @@ mkdir django
 cd django
 virtualenv -p python3 env
 sourec env/bin/activate
----
+```
 
 <details>
 # Diactive env
