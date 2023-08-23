@@ -7,12 +7,13 @@ sudo apt install python3-pip virtualenv -y
 mkdir django
 cd django
 virtualenv -p python3 env
-
 sourec env/bin/activate
+---
 
-> Diactive env
+<details>
+# Diactive env
 deactivate
-
+</details>
 # windows # python.exe -m pip install --upgrade pip
 
 (venv) C:\Users\DevOps\PycharmProjects\myproject>
