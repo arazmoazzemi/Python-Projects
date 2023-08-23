@@ -42,8 +42,7 @@ nav:
 ### Installation
 ```bash
 pip install hello-pkg
-
-
+```
 > * Open your program on <127.0.0.1:8000 address>
 
 
