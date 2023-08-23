@@ -12,12 +12,13 @@ Start by reading the introductory tutorial, then check the User Guide for more i
 
 ```python
 pip install mkdocs
+mkdocs --help
 ```
 
 * After install, Configure **yml** file:
 
 ```
-mkdocs --help
+
 mkdocs new hello-pkg
 
 cd hello-pkg
