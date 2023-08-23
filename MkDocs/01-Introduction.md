@@ -21,6 +21,8 @@ mkdocs --help
 mkdocs new hello-pkg
 
 cd hello-pkg
+# Open mkdocs.yml and set below config:
+
 
 
 
