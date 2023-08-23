@@ -4,7 +4,7 @@
   > Reference: _**<https://www.mkdocs.org/>**_
 
 ---
-* Install on python
+* Install on python:
 
 ```python
 pip install mkdocs
