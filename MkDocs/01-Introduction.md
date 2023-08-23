@@ -23,7 +23,11 @@ mkdocs new hello-pkg
 cd hello-pkg
 # Open mkdocs.yml and set below config:
 
-
+site_name: MkLorum
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - About: about.md
 
 
 
