@@ -43,9 +43,11 @@ nav:
 ```bash
 pip install hello-pkg
 
-* Run your program:
-```
-```
+
+> * Open your program on <127.0.0.1:8000 address>
+
+
+
 
 
 
