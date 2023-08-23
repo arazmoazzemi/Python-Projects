@@ -14,7 +14,7 @@ Start by reading the introductory tutorial, then check the User Guide for more i
 pip install mkdocs
 ```
 
-After install:
+* After install, Configure **yml** file:
 
 ```
 mkdocs --help
