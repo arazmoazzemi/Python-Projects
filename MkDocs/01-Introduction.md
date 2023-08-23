@@ -33,7 +33,8 @@ nav:
   - About: about.md
 ```
 
-* Write your markdown code, Into the index.md file:
+* Write your markdown code, Into the index.md file,
+* For Example:
 ```
 ## Hello-Pkgs
 
