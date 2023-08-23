@@ -47,8 +47,10 @@ pip install hello-pkg
 
 * Run the server:
 ```
-mkdocs serve
-> Open your program on <127.0.0.1:8000> address <
+mkdocs serve --dev-addr 127.0.0.1:8001
+
+# default: '127.0.0.1:8000'
+# Open your program on <127.0.0.1:8000> address
 ```
 
 
