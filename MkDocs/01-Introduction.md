@@ -43,7 +43,7 @@ nav:
 ```bash
 pip install hello-pkg
 ```
-> __Open your program on <127.0.0.1:8000> address__
+> __Open your program on__ <127.0.0.1:8000> __address__
 
 
 
