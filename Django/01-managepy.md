@@ -10,7 +10,7 @@ virtualenv -p python3 env
 
 sourec env/bin/activate
 
-# Diactive env
+> Diactive env
 deactivate
 
 # windows # python.exe -m pip install --upgrade pip
