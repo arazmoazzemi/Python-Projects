@@ -10,10 +10,10 @@ virtualenv -p python3 env
 sourec env/bin/activate
 ```
 
-<details>
+<test>
 # Diactive env
 deactivate
-</details>
+</test>
 # windows # python.exe -m pip install --upgrade pip
 
 (venv) C:\Users\DevOps\PycharmProjects\myproject>
