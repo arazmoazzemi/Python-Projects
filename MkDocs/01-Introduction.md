@@ -16,7 +16,7 @@ Start by reading the introductory tutorial, then check the User Guide for more i
 ```
 
 * Cretae a new project:
-```
+```python
 >>> mkdocs new hello-pkg
 >>> cd hello-pkg
 ```
