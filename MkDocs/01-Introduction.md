@@ -12,7 +12,8 @@ Start by reading the introductory tutorial, then check the User Guide for more i
 
 ```python
 >>> pip install mkdocs
->>> mkdocs --help
+```bash
+$ mkdocs --help
 ```
 
 * Cretae a new project:
