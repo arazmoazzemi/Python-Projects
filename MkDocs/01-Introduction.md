@@ -20,6 +20,7 @@ $ mkdocs --help
 ```python
 >>> mkdocs new hello-pkg
 ```
+
 ```bash
 $ cd hello-pkg
 ```
