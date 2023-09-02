@@ -6,6 +6,9 @@ clone yolov8 form github
 
 ```
 git clone https://github.com/ultralytics/ultralytics.git
+cd ultralytics
+pip install -r requirements.txt
+
 ```
 
 
