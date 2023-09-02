@@ -2,7 +2,11 @@
 
 Start 
 
+clone yolov8 form github
 
+```python
+>>> git clone https://github.com/ultralytics/ultralytics.git
+```
 
 
 
