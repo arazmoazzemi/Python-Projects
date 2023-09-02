@@ -4,7 +4,7 @@ Start
 
 clone yolov8 form github
 
-```python
+```cmd
 >>> git clone https://github.com/ultralytics/ultralytics.git
 ```
 
