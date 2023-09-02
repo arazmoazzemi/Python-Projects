@@ -4,8 +4,8 @@ Start
 
 clone yolov8 form github
 
-```cmd
->>> git clone https://github.com/ultralytics/ultralytics.git
+```
+git clone https://github.com/ultralytics/ultralytics.git
 ```
 
 
