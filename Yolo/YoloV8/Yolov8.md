@@ -11,7 +11,6 @@ pip install -r requirements.txt
 
 ```
 
-
 ```bash
 yolo task=detect mode=predicet model=yolov8n.pt conf=.025 source='tehran.jpg' save=True
 ```
@@ -29,25 +28,18 @@ https://realpython.com/face-recognition-with-python/
 from google.colab import drive
 drive.mount('/content/gdrive')
 
-
 !python -m pip install --upgrade pip
 !pip install tensorflow
 !pip install tensorboard
 
-
 !pip install torch
-
-
 
 import torch
 from IPython.display import Image
 
-
-
 %ls
 %cd MyDrive/
 !git clone https://github.com/ultralytics/yolov5
-
 
 %cd yolo5
 !pip install -r requirements.txt
