@@ -98,7 +98,6 @@ for box in boxes:
 
 ----
 
-
 ### webcam:
 
 ```python
