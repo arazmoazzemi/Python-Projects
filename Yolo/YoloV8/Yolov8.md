@@ -97,7 +97,7 @@ for box in boxes:
     print(f'Bounding box: {box}, Label: {label}')
 ```
 
-
+----
 
 
 
