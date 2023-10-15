@@ -4,7 +4,7 @@ Start
 
 clone yolov8 form github
 
-```
+```bash
 git clone https://github.com/ultralytics/ultralytics.git
 cd ultralytics
 pip install -r requirements.txt
@@ -14,11 +14,6 @@ pip install -r requirements.txt
 ```
 yolo task=detect mode=predicet model=yolov8n.pt conf=.025 source='tehran.jpg' save=True
 ```
-
-
-
-
-
 
 
 
