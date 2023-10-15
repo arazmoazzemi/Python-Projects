@@ -11,7 +11,8 @@ pip install -r requirements.txt
 
 ```
 
-```
+
+```bash
 yolo task=detect mode=predicet model=yolov8n.pt conf=.025 source='tehran.jpg' save=True
 ```
 
