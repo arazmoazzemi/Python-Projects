@@ -59,11 +59,9 @@ python detect.py --weights yolov5m.pt  --source C:\Users\DevOps\PycharmProjects\
 python detect.py --weights yolov5m.pt  --source rtsp://admin:mrns2468@192.168.86.211:554/Streaming/Channels/1/
 ```
 
+----
 
-
-
-
-------------picture--------------------------
+```python
 
 import torch
 from IPython.display import Image
@@ -97,7 +95,7 @@ for box in boxes:
     label = labels[int(class_id)]
     # Process the bounding box and label
     print(f'Bounding box: {box}, Label: {label}')
-
+```
 
 
 
