@@ -100,10 +100,9 @@ for box in boxes:
 ----
 
 
+### webcam:
 
-
--------------webcam------------------------------------
-
+```python
 import cv2
 import torch
 from PIL import Image
@@ -138,7 +137,7 @@ while True:
 # Release the webcam and close windows
 cap.release()
 cv2.destroyAllWindows()
-
+```
 
 
 
