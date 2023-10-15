@@ -1,8 +1,7 @@
 # YOLOV8
 
-Start 
 
-clone yolov8 form github
+- ### clone yolov8 form github:
 
 ```bash
 git clone https://github.com/ultralytics/ultralytics.git
@@ -17,7 +16,7 @@ yolo task=detect mode=predicet model=yolov8n.pt conf=.025 source='tehran.jpg' sa
 
 ----
 
-# Build Your Own Face Recognition Tool With Python
+- ### Build Your Own Face Recognition Tool With Python:
 
 ```bash
 https://realpython.com/face-recognition-with-python/
