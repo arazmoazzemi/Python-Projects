@@ -61,10 +61,11 @@ python detect.py --weights yolov5m.pt --conf-thres 0.7 --source C:\Users\DevOps\
 python detect.py --weights yolov5m.pt  --source C:\Users\DevOps\PycharmProjects\pythonProject\test.mp4
 python detect.py --weights yolov5m.pt  --source C:\Users\DevOps\PycharmProjects\pythonProject\tehran.jpg --class 0 3
 ```
+----
 
-
+```bash
 python detect.py --weights yolov5m.pt  --source rtsp://admin:mrns2468@192.168.86.211:554/Streaming/Channels/1/
-
+```
 
 
 
