@@ -23,14 +23,7 @@ yolo task=detect mode=predicet model=yolov8n.pt conf=.025 source='tehran.jpg' sa
 ```bash
 https://realpython.com/face-recognition-with-python/
 ```
-
-
-
--------------------------------------------------------
-
-
-
-
+----
 
 from google.colab import drive
 drive.mount('/content/gdrive')
