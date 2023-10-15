@@ -25,9 +25,9 @@ https://realpython.com/face-recognition-with-python/
 ```
 ----
 
+```python
 from google.colab import drive
 drive.mount('/content/gdrive')
-
 
 
 !python -m pip install --upgrade pip
@@ -60,7 +60,7 @@ from IPython.display import Image
 python detect.py --weights yolov5m.pt --conf-thres 0.7 --source C:\Users\DevOps\PycharmProjects\pythonProject\tehran.jpg
 python detect.py --weights yolov5m.pt  --source C:\Users\DevOps\PycharmProjects\pythonProject\test.mp4
 python detect.py --weights yolov5m.pt  --source C:\Users\DevOps\PycharmProjects\pythonProject\tehran.jpg --class 0 3
-
+```
 
 
 python detect.py --weights yolov5m.pt  --source rtsp://admin:mrns2468@192.168.86.211:554/Streaming/Channels/1/
