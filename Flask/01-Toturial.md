@@ -19,6 +19,7 @@ flask --app main.py --debug run
 
 
 
+Example:
 
 --------------Flask Define simple view-------------------------
 from flask import Flask
