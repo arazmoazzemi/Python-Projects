@@ -2,6 +2,7 @@ https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/
 
 https://pypi.org/project/selenium/
 
+pip install selenium
 
 ---
 from selenium import webdriver
@@ -14,16 +15,15 @@ import time
 
 
 
-pip install selenium
-pip install pandas
 
 
 
 
+- pip packages
+
+```python
 pip list
-
 pip check
-
 pip show pandas
 
 (venv) C:\> python -m pip freeze > requirements.txt
