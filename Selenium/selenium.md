@@ -1,16 +1,20 @@
-https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/
+# [Selenium Python](https://pypi.org/project/selenium/)
 
-https://pypi.org/project/selenium/
-
+#### Install:
+```python
 pip install selenium
+```
 
----
+#### How to use:
+```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+```
 
----
+# [Selenium IDE for firefox](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
+
 
 
 
