@@ -13,22 +13,18 @@ from selenium.webdriver.common.keys import Keys
 import time
 ```
 
+---
 # [Selenium IDE for firefox](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
+---
 
 
 
-
-
-
-
-
-
-- pip packages
+- Pip packages, Exampels:
 
 ```python
 pip list
 pip check
-pip show pandas
+pip show selenium
 
 (venv) C:\> python -m pip freeze > requirements.txt
 python -m pip install -r requirements.txt
