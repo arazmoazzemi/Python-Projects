@@ -16,7 +16,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 ```
 ---
 
-OR
+ # 👆 OR 👇
 
 ---
 
