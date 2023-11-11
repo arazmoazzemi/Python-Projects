@@ -13,25 +13,18 @@ GENERATED ROOT PASSWORD: seJ_c2hC:y37o525VG/K=@7Zf*T^_k2p
 
 docker exec -it mysql1 mysql -uroot -p
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+```
 
+OR
 
-
-
-
-
-
----------------------------------
+```cmd
 docker pull mysql/mysql-server
-
 docker container run --name=LocalMysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password mysql -d mysql/mysql-server 
-
 docker exec -it LocalMysql mysql -uroot -p
-
 # OR
-
 docker exec -it LocalMysql
 mysql -h localhost -uroot -P 3306 -ppassword
-
+```
 
 
 
