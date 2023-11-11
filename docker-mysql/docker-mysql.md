@@ -15,7 +15,9 @@ docker exec -it mysql1 mysql -uroot -p
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 ```
 ---
+
 OR
+
 ---
 
 ```cmd
