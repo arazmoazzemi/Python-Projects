@@ -1,18 +1,17 @@
+# Docker pull latest mysql server
+
+```cmd
 docker pull mysql/mysql-server
 
 docker run --name=mysql1 -d mysql/mysql-server 
 # Windows
 docker logs mysql1
 
-
 # linux
 docker logs mysql1 2>&1 | grep GENERATED
-
 GENERATED ROOT PASSWORD: seJ_c2hC:y37o525VG/K=@7Zf*T^_k2p
 
-
 docker exec -it mysql1 mysql -uroot -p
-
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 
 
