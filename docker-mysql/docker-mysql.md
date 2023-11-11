@@ -31,13 +31,12 @@ mysql -h localhost -uroot -P 3306 -ppassword
 
 ---
 
+# Install sqlalchemy with pip:
+```python
+pip install
 
 
-
-
-
-
-
+```
 
 
 from sqlalchemy import create_engine
