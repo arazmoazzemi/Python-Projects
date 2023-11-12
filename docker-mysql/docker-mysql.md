@@ -22,7 +22,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 
 ```cmd
 docker pull mysql/mysql-server
-docker container run --name=LocalMysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_ROOT_HOST:"%" mysql -d mysql/mysql-server 
+docker container run --name=LocalMysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_ROOT_HOST:"%" mysql -d mysql/mysql-server
+
+docker run --name=LocalMysql -p3306:3306 -v mysql-volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-password -e MYSQL_ROOT_HOST:"%" -d mysql/mysql-server:latest
+
 docker exec -it LocalMysql mysql -uroot -p
 # OR
 docker exec -it LocalMysql
