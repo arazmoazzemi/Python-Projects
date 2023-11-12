@@ -18,6 +18,7 @@ mysql -uroot -p
 
 
 mysql> CREATE USER 'it'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+mysql> FLUSH PRIVILEGES;
 
 # check is %
 mysql> SELECT host, user FROM mysql.user;
