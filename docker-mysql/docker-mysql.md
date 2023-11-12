@@ -36,6 +36,15 @@ mysql -h localhost -uroot -P 3306 -ppassword
 
 ---
 
+### Create database ang grant privilage
+
+```bash
+CREATE USER 'it'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+SELECT host, user FROM mysql.user;
+```
+
+---
+
 # Install sqlalchemy with pip:
 ```python
 pip install
