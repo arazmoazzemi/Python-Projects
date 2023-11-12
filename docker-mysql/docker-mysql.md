@@ -17,8 +17,8 @@ docker exec -it LocalMysql sh
 mysql -uroot -p
 
 
-mysql> CREATE USER 'it'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
-mysql> GRANT ALL PRIVILEGES ON database_name.* TO 'it'@'%';
+mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 mysql> FLUSH PRIVILEGES;
 
 # check is %
