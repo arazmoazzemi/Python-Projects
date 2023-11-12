@@ -2,45 +2,25 @@
 
 ```cmd
 docker pull mysql/mysql-server
-
-docker run --name=mysql1 -d mysql/mysql-server 
-# Windows
-docker logs mysql1
-
-# linux
-docker logs mysql1 2>&1 | grep GENERATED
-GENERATED ROOT PASSWORD: seJ_c2hC:y37o525VG/K=@7Zf*T^_k2p
-
-docker exec -it mysql1 mysql -uroot -p
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
-```
----
-
- # 👆 OR 👇
-
----
-
-```cmd
-docker pull mysql/mysql-server
-# docker container run --name=LocalMysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_ROOT_HOST:"%" mysql -d mysql/mysql-server
-
 docker run --name=LocalMysql -p3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_ROOT_HOST:"%" -d mysql/mysql-server:latest
-docker exec -it LocalMysql sh
 
-
-docker exec -it LocalMysql mysql -uroot -p
-# OR
-# 
-mysql -h localhost -uroot -P 3306 -ppassword
 ```
-
 ---
 
 ### Create database ang grant privilage
+```cmd
+docker exec -it LocalMysql sh
+```
+
 
 ```bash
-CREATE USER 'it'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
-SELECT host, user FROM mysql.user;
+mysql -uroot -p
+
+
+mysql> CREATE USER 'it'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
+# check is %
+mysql> SELECT host, user FROM mysql.user;
 ```
 
 ---
