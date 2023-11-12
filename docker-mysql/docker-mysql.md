@@ -18,6 +18,7 @@ mysql -uroot -p
 
 
 mysql> CREATE USER 'it'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+mysql> GRANT ALL PRIVILEGES ON database_name.* TO 'it'@'%';
 mysql> FLUSH PRIVILEGES;
 
 # check is %
@@ -28,7 +29,12 @@ mysql> SELECT host, user FROM mysql.user;
 
 # Install sqlalchemy with pip:
 ```python
-pip install
+pip install SQLAlchemy
+pip install mysqlclient
+
+pip install pandas
+pip install xlrd
+
 
 
 ```
