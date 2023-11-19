@@ -30,11 +30,13 @@ pip show selenium
 python -m pip install -r requirements.txt
 
 pip install -r requirements.txt
+```python
 
 
 
+---
+```python
 
--------------------------------------------
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -71,7 +73,7 @@ time.sleep(2)
 
 browser.close()
 
-
+```
 
 
 
