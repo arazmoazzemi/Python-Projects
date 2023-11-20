@@ -21,11 +21,12 @@ import time
 
 - Pip packages, Exampels:
 
-```python
+```cmd
 pip list
 pip check
 pip show selenium
-
+```
+```cmd
 (venv) C:\> python -m pip freeze > requirements.txt
 python -m pip install -r requirements.txt
 
