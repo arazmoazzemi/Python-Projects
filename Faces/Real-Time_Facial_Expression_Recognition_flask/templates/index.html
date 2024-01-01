@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Facial Expression Recognition</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var socket = io();
+
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(stream => {
+                    document.getElementById('video').srcObject = stream;
+                    setInterval(() => {
+                        socket.emit('frame', getFrame());
+                    }, 100);
+                })
+                .catch(console.error);
+
+            socket.on('response_frame', data => {
+                const img = document.getElementById('output');
+                img.src = 'data:image/jpeg;base64,' + data;
+            });
+
+            function getFrame() {
+                const video = document.getElementById('video');
+                const canvas = document.createElement('canvas');
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                canvas.getContext('2d').drawImage(video, 0, 0);
+                return canvas.toDataURL('image/jpeg').split(',')[1];
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Real-Time Facial Expression Recognition</h1>
+    <video id="video" autoplay></video>
+    <img id="output"/>
+</body>
+</html>
