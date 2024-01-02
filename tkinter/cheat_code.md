@@ -47,8 +47,8 @@ Button examoes:
 btn = Button(master=window, text="click me")
 # btn.pack(fill='x')
 # btn.pack(fill='y', expand=True)
-
-
+# btn.grid(column=2, row=2)
+# btn.place(x=200, y=350)
 
 ```
 
