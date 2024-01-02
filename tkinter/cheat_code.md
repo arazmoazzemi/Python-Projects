@@ -97,6 +97,7 @@ Label example:
 
 label = tk.Label(master=window, text="label1",width=10, height=2, fg="red", bg="yellow", font=("Arial"))
 label.pack()
+# label.place(x='30', y='40')
 
 
 
