@@ -44,7 +44,7 @@ else:
 
 Button examoes:
 ```
-btn = Button(master=window, text="click me", width=10, height=2, bd=2, fg="red", bg="yellow")
+btn = Button(master=window, text="click me", width=10, height=2, bd=4, fg="blue", bg="yellow", activebackground="red")
 # btn.pack(fill='x')
 # btn.pack(fill='y', expand=True)
 # btn.grid(column=2, row=2)
