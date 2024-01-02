@@ -1,5 +1,6 @@
-import tkinter as tk
 
+
+import tkinter as tk
 
 window = tk.Tk()
 # window.configure(bg='green', cursor='')
