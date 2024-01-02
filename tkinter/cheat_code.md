@@ -45,13 +45,33 @@ else:
 Button examoes:
 ```
 btn = Button(master=window, text="click me", width=10, height=2, bd=4, fg="blue", bg="yellow", activebackground="red")
+
+
+
+
 # btn.pack(fill='x')
 # btn.pack(fill='y', expand=True)
 # btn.grid(column=2, row=2)
 # btn.place(x=200, y=350)
 
 ```
+Button examle:
+```
+import tkinter as tk
+from tkinter import Button
+window = tk.Tk()
+window.title("Face")
+window.geometry("500x500+200+200")
 
+def print_test():
+    print("Hello")
+
+btn = Button(master=window, text="click me", width=10, height=2, bd=4, fg="blue", bg="yellow", activebackground="red", command=print_test)
+
+btn.place(x=200, y=350)
+
+tk.mainloop()
+```
 
 
 
