@@ -1,9 +1,12 @@
 
-
+```
 import tkinter as tk
-
 window = tk.Tk()
+{
 
+}
+window.mainloop()
+```
 ### Examples:
 
 Example of Create Windows:
@@ -14,6 +17,7 @@ Example of Create Windows:
 # window.resizable(width=False, height=False)
 # window.maxsize(width=500, height=500)
 ```
+---
 
 Exmaple of Show messages:
 ```
@@ -36,8 +40,11 @@ else:
     messagebox.showerror('Result Is Canceled', 'Canceled')
 
 ```
+---
 
 
 
 
-window.mainloop()
+
+
+
