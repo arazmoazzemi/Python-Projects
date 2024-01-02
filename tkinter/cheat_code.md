@@ -121,7 +121,9 @@ def print_button(event):
     print("event printed")
 
 button.bind('<Button-1>', print_button)
-
+# <Button-1>
+# <Button-2>
+# <Button-3>
 windows.mainloop()
 
 
