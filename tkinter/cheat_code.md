@@ -121,12 +121,19 @@ def print_button(event):
     print("event printed")
 
 button.bind('<Button-1>', print_button)
-# <Button-1>
-# <Button-2>
-# <Button-3>
-# <ButtonRelease-1>
-# <ButtonRelease-2>
-# <ButtonRelease-3>
+# ---
+# button.bind('<Button-1>', print_button)
+# button.bind('<Button-2>', print_button)
+# button.bind('<Button-3>', print_button)
+# ---
+# button.bind('<ButtonRelease-1>', print_button)
+# button.bind('<ButtonRelease-2>', print_button)
+# button.bind('<ButtonRelease-3>', print_button)
+# ---
+# button.bind('<MouseWheel>', print_button)
+# ---
+# button.bind('<Enter>', print_button)
+
 
 
 
