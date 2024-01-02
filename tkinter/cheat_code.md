@@ -72,7 +72,25 @@ btn.place(x=200, y=350)
 
 tk.mainloop()
 ```
+Button exampe:
+```
+import tkinter as tk
+from tkinter import *
+window = tk.Tk()
+window.title("Face")
+window.geometry("500x500+200+200")
 
+def print_test():
+    print("Hello")
+
+button = Button(master=window, text="click me", command=print_test, height= 35, width=70)
+img = PhotoImage(file='click-here-button-icon.png')
+button.config(image=img)
+button.pack()
+button.place(x=200, y=350)
+
+tk.mainloop()
+```
 
 
 
