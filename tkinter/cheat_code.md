@@ -141,6 +141,7 @@ button.bind('<Double-Button-1>', print_button)
 button.bind('<Double-Button-2>', print_button)
 button.bind('<Double-Button-3>', print_button)
 
+windows.mainloop()
 ```
 
 #### 06-02: Keyboard events:
@@ -154,7 +155,7 @@ button.bind('<Double-Button-3>', print_button)
 
 
 
-windows.mainloop()
+
 
 
 
