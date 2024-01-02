@@ -16,13 +16,15 @@ window = tk.Tk()
 
 Message Example:
 ```
-message = messagebox.askyesnocancel('ASK', 'Do you want to')
-if message is True:
+result = messagebox.askyesnocancel('ASK', 'Do you want to')
+
+if result is True:
     messagebox.showinfo('Result Is True', 'True')
-elif message is False:
+elif result is False:
     messagebox.showinfo('Result Is False', 'False')
 else:
-    messagebox.showerror('Result Is Canceled', 'canceled')
+    messagebox.showerror('Result Is Canceled', 'Canceled')
+
 ```
 
 
