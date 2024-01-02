@@ -8,7 +8,7 @@ window = tk.Tk()
 window.mainloop()
 ```
 ### Examples:
-
+## 01
 Example of Create Windows:
 ```
 # window.configure(bg='green', cursor='')
@@ -19,6 +19,7 @@ Example of Create Windows:
 ```
 ---
 
+## 02
 Exmaple of Show messages:
 ```
 # messagebox.showerror('Error', 'Please')
@@ -27,7 +28,7 @@ Exmaple of Show messages:
 # messagebox.askokcancel("ASK", "Do you want to")
 # messagebox.askyesnocancel('ASK', 'Do you want to')
 ```
-
+## 03
 Message Example:
 ```
 result = messagebox.askyesnocancel('ASK', 'Do you want to')
@@ -42,12 +43,10 @@ else:
 ```
 ---
 
-Button examoes:
+## 04
+Button examples:
 ```
 btn = Button(master=window, text="click me", width=10, height=2, bd=4, fg="blue", bg="yellow", activebackground="red")
-
-
-
 
 # btn.pack(fill='x')
 # btn.pack(fill='y', expand=True)
@@ -92,6 +91,7 @@ button.place(x=200, y=350)
 tk.mainloop()
 ```
 
+## 05
 Label example:
 ```
 
