@@ -12,7 +12,7 @@ window = tk.Tk()
 # messagebox.showinfo("Error", "Info", parent=window)
 # messagebox.askquestion("ASK", "Do you want to")
 # messagebox.askokcancel("ASK", "Do you want to")
-
+# messagebox.askyesnocancel('ASK', 'Do you want to')
 
 
 
