@@ -124,6 +124,7 @@ button.bind('<Button-1>', print_button)
 # <Button-1>
 # <Button-2>
 # <Button-3>
+# <ButtonRelease-1>
 windows.mainloop()
 
 
