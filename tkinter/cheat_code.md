@@ -46,7 +46,7 @@ Button examoes:
 ```
 btn = Button(master=window, text="click me")
 # btn.pack(fill='x')
-# btn.pack(fill='y')
+# btn.pack(fill='y', expand=True)
 
 
 
