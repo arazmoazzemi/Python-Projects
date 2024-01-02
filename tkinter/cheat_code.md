@@ -95,7 +95,7 @@ tk.mainloop()
 Label example:
 ```
 
-label = tk.Label(master=window, text="label1",width=10, height=2, fg="red", bg="yellow", font=("Arial, 10"), underline=1))
+label = tk.Label(master=window, text="label1",width=10, height=2, fg="red", bg="yellow", font=("Arial, 10"), underline=1, anchor=CENTER)
 label.pack()
 # label.place(x='30', y='40')
 
