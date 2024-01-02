@@ -92,5 +92,13 @@ button.place(x=200, y=350)
 tk.mainloop()
 ```
 
+Label example:
+```
+
+
+
+
+
+```
 
 
