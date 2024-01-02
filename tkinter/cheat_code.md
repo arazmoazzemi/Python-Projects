@@ -105,6 +105,7 @@ label.pack()
 ## 06
 Events examples:
 
+#### 06-01 : Mouse events:
 ```
 import tkinter as tk
 from tkinter import *
@@ -141,6 +142,13 @@ button.bind('<Double-Button-2>', print_button)
 button.bind('<Double-Button-3>', print_button)
 # ---
 
+06-02: Keyboard events:
+```
+
+
+
+
+```
 
 
 
