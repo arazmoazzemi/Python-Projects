@@ -106,6 +106,24 @@ label.pack()
 Events examples:
 
 ```
+import tkinter as tk
+from tkinter import *
+
+
+windows = tk.Tk()
+windows.title("Face")
+windows.geometry("500x500")
+windows.resizable(width=False, height=False)
+
+button = tk.Button(windows, text="click me")
+button.pack()
+def print_button(event):
+    print("event printed")
+
+button.bind('<Button-1>', print_button)
+
+windows.mainloop()
+
 
 
 
