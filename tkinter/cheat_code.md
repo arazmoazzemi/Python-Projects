@@ -44,6 +44,10 @@ else:
 
 Button examoes:
 ```
+btn = Button(master=window, text="click me")
+# btn.pack(fill='x')
+# btn.pack(fill='y')
+
 
 
 ```
