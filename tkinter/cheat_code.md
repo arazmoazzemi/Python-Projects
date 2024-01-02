@@ -133,6 +133,14 @@ button.bind('<Button-1>', print_button)
 # button.bind('<MouseWheel>', print_button)
 # ---
 # button.bind('<Enter>', print_button)
+# ---
+button.bind('<Leave>', print_button)
+# ---
+button.bind('<Double-Button-1>', print_button)
+button.bind('<Double-Button-2>', print_button)
+button.bind('<Double-Button-3>', print_button)
+# ---
+
 
 
 
