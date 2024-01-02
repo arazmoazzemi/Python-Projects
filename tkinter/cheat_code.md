@@ -100,6 +100,13 @@ label.pack()
 # label.place(x='30', y='40')
 
 
+```
+---
+## 06
+Events examples:
+
+```
+
 
 
 
