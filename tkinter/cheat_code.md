@@ -337,6 +337,15 @@ window.bind('<Return>', print_entry)
 
 window.mainloop()
 ```
+---
+
+### 08
+### Text Editor
+```
+
+
+
+```
 
 
 
