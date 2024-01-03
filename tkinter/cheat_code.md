@@ -355,12 +355,11 @@ txt = Text(master=window, width=50, height=30, bg='white', fg='red', font='Arial
 txt.pack()
 
 window.mainloop()
-
-
-
-
 ```
+---
 
+### 09
+### 
 
 
 
