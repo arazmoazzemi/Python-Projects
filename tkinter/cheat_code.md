@@ -293,7 +293,7 @@ window.bind('<Return>', print_entry)
 window.mainloop()
 ```
 
-### Select input valuse from start to end of charactes:
+### Select range of input valuse, From start to end of charactes:
 
 ```
 import tkinter as tk
