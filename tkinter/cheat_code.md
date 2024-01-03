@@ -151,7 +151,8 @@ windows.mainloop()
 # windows.bind("<Tab>", print_button)
 # windows.bind("<a>", print_button)
 # windows.bind("<Up>", print_button)
-
+# windows.bind("<BackSpace>", print_button)
+# windows.bind("<F1>", print_button)
 
 ```
 
