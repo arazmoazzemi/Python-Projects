@@ -153,6 +153,7 @@ windows.mainloop()
 # windows.bind("<Up>", print_button)
 # windows.bind("<BackSpace>", print_button)
 # windows.bind("<F1>", print_button)
+# windows.bind("<Shift-Up>", print_button)
 
 ```
 
