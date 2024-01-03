@@ -147,6 +147,7 @@ windows.mainloop()
 #### 06-02: Keyboard events:
 ```
 # windows.bind("<Key>", print_button)
+# windows.bind("<Return>", print_button)
 
 
 
