@@ -342,6 +342,28 @@ window.mainloop()
 ### 08
 ### Text Editor
 ```
+import tkinter as tk
+from tkinter import *
+
+window = tk.Tk()
+window.title("Text Title")
+window.geometry('500x500')
+window.resizable(False, False)
+
+txt = Text(master=window, width=50, height=30, bg='white', fg='red', font='Arial', wrap='word', bd=5, relief=SUNKEN)
+txt.pack()
+
+
+
+
+
+
+
+
+
+
+window.mainloop()
+
 
 
 
