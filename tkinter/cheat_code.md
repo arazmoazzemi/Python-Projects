@@ -162,6 +162,11 @@ windows.mainloop()
 ## 07
 #### Input Values:
 ```
+inp_entry = Entry(master=windows, width=10, bg="yellow", fg="black", bd=2, cursor='hand2', font=("Helvetica") )
+inp_entry.pack()
+
+
+
 
 ```
 
