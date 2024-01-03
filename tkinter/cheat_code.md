@@ -371,12 +371,22 @@ window.geometry("500x500")
 var = IntVar()
 radio_button_1 = tk.Radiobutton(master=window, text="yes", variable=var, value=1)
 radio_button_2 = tk.Radiobutton(master=window, text="no", variable=var, value=2)
-
-
+radio_button = Button(master=window, text="submit")
 
 radio_button_1.pack()
 radio_button_2.pack()
+radio_button.pack()
+
+def show_message(event):
+    if(var.get() == 1):
+        print("Yes")
+    if(var.get() == 2):
+        print("No")
+
+radio_button.bind('<Button>', show_message)
+
 window.mainloop()
+
 
 
 ```
