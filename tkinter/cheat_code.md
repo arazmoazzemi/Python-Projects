@@ -204,19 +204,27 @@ window.bind('<Return>', print_entry)
 
 window.mainloop()
 
-
-
-
-
 ```
+#### Get Input:
+```
+import tkinter as tk
+from _ast import Return
+from tkinter import *
+
+window = tk.Tk()
+window.title("Face")
+window.geometry("500x500")
+window.resizable(width=False, height=False)
+
+inp_entry = Entry(master=window, width=10, bg="yellow", fg="black", bd=2, cursor='hand2', font=("Helvetica"), selectbackground='green', selectforeground='blue' )
+inp_entry.pack()
+def print_entry(events):
+    print(inp_entry.get())
 
 
+window.bind('<Return>', print_entry)
 
-
-
-
-
-
+window.mainloop()
 
 ```
 
