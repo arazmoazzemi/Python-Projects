@@ -162,8 +162,13 @@ windows.mainloop()
 ## 07
 #### Input Values:
 ```
+def print_button(event):
+    print("event printed")
+
 inp_entry = Entry(master=windows, width=10, bg="yellow", fg="black", bd=2, cursor='hand2', font=("Helvetica"), selectbackground='green', selectforeground='blue' )
 inp_entry.pack()
+
+# inp_entry.bind('<Return>', print_button)
 
 
 
