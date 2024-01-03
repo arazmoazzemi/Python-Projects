@@ -150,6 +150,7 @@ windows.mainloop()
 # windows.bind("<Return>", print_button)
 # windows.bind("<Tab>", print_button)
 # windows.bind("<a>", print_button)
+# windows.bind("<Up>", print_button)
 
 
 ```
