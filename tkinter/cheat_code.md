@@ -350,7 +350,7 @@ window.title("Text Title")
 window.geometry('500x500')
 window.resizable(False, False)
 
-txt = Text(master=window, width=50, height=30, bg='white', fg='red', font='Arial', wrap='word', bd=5, relief=SUNKEN)
+txt = Text(master=window, width=50, height=30, bg='white', fg='red', font='Arial', wrap='word', bd=5, relief=SUNKEN, insertofftime=0, insertwidth=4)
 txt.pack()
 
 
