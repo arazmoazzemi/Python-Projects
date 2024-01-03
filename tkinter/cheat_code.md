@@ -386,10 +386,18 @@ def show_message(event):
 radio_button.bind('<Button>', show_message)
 
 window.mainloop()
+```
+
+---
+
+### 10
+### Check Button(CheckBox)
+```
 
 
 
 ```
+
 
 
 
