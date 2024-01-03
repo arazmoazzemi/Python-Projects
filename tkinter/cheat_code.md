@@ -359,7 +359,27 @@ window.mainloop()
 ---
 
 ### 09
-### 
+### Radio Button
+```
+import tkinter as tk
+from tkinter import *
+
+
+window = tk.Tk()
+window.title("Radio Button")
+window.geometry("500x500")
+var = IntVar()
+radio_button_1 = tk.Radiobutton(master=window, text="yes", variable=var, value=1)
+radio_button_2 = tk.Radiobutton(master=window, text="no", variable=var, value=2)
+
+
+
+radio_button_1.pack()
+radio_button_2.pack()
+window.mainloop()
+
+
+```
 
 
 
