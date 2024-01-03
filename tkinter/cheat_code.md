@@ -393,6 +393,38 @@ window.mainloop()
 ### 10
 ### Check Button(CheckBox)
 ```
+import tkinter as tk
+from tkinter import *
+
+window = tk.Tk()
+window.title("Face")
+window.geometry("500x500")
+
+var1 = IntVar()
+var2 = IntVar()
+
+chkbox_01 = Checkbutton(window, text="one", variable=var1, onvalue=1, offvalue=0)
+chkbox_02 = Checkbutton(window, text="two", variable=var2, onvalue=1, offvalue=0)
+
+button = Button(master=window, text="submit")
+def m(event):
+    if (var1.get() == 1):
+        print("one marked")
+    if (var1.get() == 0):
+        print("one unmarked")
+
+    if (var2.get() == 1):
+        print("one marked")
+    if (var2.get() == 0):
+        print("one unmarked")
+
+button.bind("<Button>", m)
+
+
+chkbox_01.pack()
+chkbox_02.pack()
+button.pack()
+window.mainloop()
 
 
 
