@@ -149,7 +149,7 @@ windows.mainloop()
 # windows.bind("<Key>", print_button)
 # windows.bind("<Return>", print_button)
 # windows.bind("<Tab>", print_button)
-
+# windows.bind("<a>", print_button)
 
 
 ```
