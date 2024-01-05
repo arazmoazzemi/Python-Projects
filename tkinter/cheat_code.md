@@ -446,7 +446,3 @@ window.mainloop()
 
 
 
-
-
-
-
