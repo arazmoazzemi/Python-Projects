@@ -450,7 +450,3 @@ window.mainloop()
 
 
 
-
-
-
-
