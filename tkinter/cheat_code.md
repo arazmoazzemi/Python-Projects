@@ -1,7 +1,7 @@
-### Tkinter cheat codes:
+## Tkinter cheat codes:
 
 ---
-
+Sample:
 ```
 import tkinter as tk
 window = tk.Tk()
