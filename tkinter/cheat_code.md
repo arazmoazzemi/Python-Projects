@@ -15,7 +15,7 @@ window.mainloop()
 Example of Create Windows:
 ```
 # window.configure(bg='green', cursor='')
-# window.geometry("500x500+200+200")
+# window.geometry("1500x1000+1000+250")
 # window.title("Test Windows")
 # window.resizable(width=False, height=False)
 # window.maxsize(width=500, height=500)
