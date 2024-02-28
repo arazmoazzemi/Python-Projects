@@ -2,7 +2,7 @@
 ### PyQt6 Cheat Codes
 ---
 
-### *[Download QT Designer](https://build-system.fman.io/qt-designer-download)*
+#### *[Download QT Designer](https://build-system.fman.io/qt-designer-download)*
 
 ### Install
 ```
