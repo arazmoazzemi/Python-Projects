@@ -1,14 +1,15 @@
 ---
-### pyqt6 Cheat Codes
+### PyQt6 Cheat Codes
 ---
 
+### Install
+```
+pip install pyqt6
+```
 
-
-
-https://build-system.fman.io/qt-designer-download
-
----
-
+```
+[Download QT Designer](https://build-system.fman.io/qt-designer-download)
+```
 
 
 ---------------------------------------
