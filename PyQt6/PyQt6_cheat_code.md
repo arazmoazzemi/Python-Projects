@@ -11,11 +11,8 @@ pip install pyqt6
 ### *[Download QT Designer](https://build-system.fman.io/qt-designer-download)*
 
 
-
----------------------------------------
-
 ### Simple window
-
+```
 from PyQt6.QtWidgets import QApplication, QWidget
 import sys
 
@@ -24,7 +21,7 @@ window = QWidget()
 window.show()
 
 sys.exit(app.exec())
+```
 
 
 
-----------------------------------------
