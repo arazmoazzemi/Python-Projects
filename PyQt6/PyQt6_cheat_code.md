@@ -1,11 +1,15 @@
-------------------------------------------
-pyqt6
+---
+### pyqt6 Cheat Codes
+---
+
+
+
 
 https://build-system.fman.io/qt-designer-download
 
----------------------------------
+---
 
-pip install pyqt6
+
 
 ---------------------------------------
 
