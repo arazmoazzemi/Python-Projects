@@ -7,9 +7,9 @@
 pip install pyqt6
 ```
 
-```
-(Download QT Designer)[https://build-system.fman.io/qt-designer-download]
-```
+
+[Download QT Designer](https://build-system.fman.io/qt-designer-download)
+
 
 
 ---------------------------------------
