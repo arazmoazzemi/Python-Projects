@@ -24,6 +24,8 @@ print(Fore.RED + 'P1' + Fore.RESET, Peykan.__dict__)
 
 ```
 
+Method and function
+
 ```
 class Peykan:
     color = 'red'
@@ -38,4 +40,7 @@ print(p1.drive())
 
 p2 = Peykan()
 print(p2.drive())
+
+print(type(Peykan.drive))
+print(type(p1.drive))
 ```
