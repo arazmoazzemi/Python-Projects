@@ -75,7 +75,21 @@ print(list_obj[0].doors)
 
 # Instead of using TRY and EXCEPTION
 print(getattr(p1, 'tires', 'Tires Not Found'))
-
-
-
 ```
+### __ int __
+```
+class Peykan:
+    color = 'red'
+    doors = 4
+
+    def __init__(self, color='red'):
+        self.color = color
+
+    def drive(self):
+        return f"Peykan is driving --> {self}"
+
+p1= Peykan(color='blue')
+
+print(p1.color)
+```
+
