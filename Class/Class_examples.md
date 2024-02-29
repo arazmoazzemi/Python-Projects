@@ -63,4 +63,14 @@ print(getattr(p1, 'color'))
 setattr(p1, 'color', 'black')
 print(p1.color)
 
+list_obj = [Peykan() for _ in range(2)]
+variables = ['color', 'doors']
+values = ['blue', 2]
+
+for obj in list_obj:
+  for variables, vlaue in zip(variables, values):
+      setattr(obj, variables, vlaue)
+
+print(list_obj[0].doors)
+
 ```
