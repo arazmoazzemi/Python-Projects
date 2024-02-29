@@ -48,6 +48,10 @@ print(type(p1.drive))
 Set and get attributes / Static methods and class methods / __ init __
 
 ```
+
+
+
+
 class Peykan:
     color = 'red'
     doors = 4
@@ -72,5 +76,10 @@ for obj in list_obj:
       setattr(obj, variables, vlaue)
 
 print(list_obj[0].doors)
+
+# Instead of using TRY and EXCEPTION
+print(getattr(p1, 'tires', 'Tires Not Found'))
+
+
 
 ```
