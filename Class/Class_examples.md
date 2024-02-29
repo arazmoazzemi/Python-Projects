@@ -45,7 +45,7 @@ print(type(Peykan.drive))
 print(type(p1.drive))
 ```
 
-Set and get attributes / Static methods and class methods / ___init___
+Set and get attributes / Static methods and class methods / ____init____
 
 ```
 ```
