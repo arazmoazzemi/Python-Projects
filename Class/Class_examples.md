@@ -13,7 +13,7 @@ print(Peykan.color)
 print(Fore.GREEN + 'model' + Fore.RESET, Peykan.__dict__)
 
 Peykan.medel = 'Javanan'
-Peykan.doors = '4'
+Peykan.doors = 4
 
 print(Peykan.__dict__)
 
@@ -48,4 +48,11 @@ print(type(p1.drive))
 Set and get attributes / Static methods and class methods / __ init __
 
 ```
+class Peykan:
+    clolor = 'red'
+    doors = 4
+
+    def drive(self):
+        return f"Peykan is driving --> {self}"
+
 ```
