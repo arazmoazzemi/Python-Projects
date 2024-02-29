@@ -93,3 +93,23 @@ p1= Peykan(color='blue')
 print(p1.color)
 ```
 
+### Static method and class method
+```
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
