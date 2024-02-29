@@ -45,7 +45,7 @@ print(type(Peykan.drive))
 print(type(p1.drive))
 ```
 
-Set and get attributs
+Set and get attributes
 
 ```
 ```
