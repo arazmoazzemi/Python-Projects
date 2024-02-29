@@ -60,4 +60,7 @@ p1 = Peykan()
 # getattr(p1, 'color')
 print(getattr(p1, 'color'))
 
+setattr(p1, 'color', 'black')
+print(p1.color)
+
 ```
