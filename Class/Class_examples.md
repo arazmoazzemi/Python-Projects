@@ -1,7 +1,7 @@
 ### Class_Examples:
 
 
-Creat objects"
+Creat objects and  mappingproxy
 
 ```
 from colorama import Fore, Back, Style
