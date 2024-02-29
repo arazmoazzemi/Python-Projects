@@ -23,3 +23,19 @@ print(p1.color)
 print(Fore.RED + 'P1' + Fore.RESET, Peykan.__dict__)
 
 ```
+
+```
+class Peykan:
+    color = 'red'
+
+    def drive(self):
+        return f"Peykan is driving -> {self}"
+
+print(Peykan.drive)
+
+p1 = Peykan()
+print(p1.drive())
+
+p2 = Peykan()
+print(p2.drive())
+```
