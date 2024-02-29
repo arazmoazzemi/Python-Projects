@@ -49,10 +49,15 @@ Set and get attributes / Static methods and class methods / __ init __
 
 ```
 class Peykan:
-    clolor = 'red'
+    color = 'red'
     doors = 4
 
     def drive(self):
         return f"Peykan is driving --> {self}"
+
+p1 = Peykan()
+
+# getattr(p1, 'color')
+print(getattr(p1, 'color'))
 
 ```
