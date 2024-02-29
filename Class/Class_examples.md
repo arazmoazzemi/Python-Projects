@@ -48,10 +48,6 @@ print(type(p1.drive))
 Set and get attributes / Static methods and class methods / __ init __
 
 ```
-
-
-
-
 class Peykan:
     color = 'red'
     doors = 4
